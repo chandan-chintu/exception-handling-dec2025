@@ -5,7 +5,6 @@ public class FinallyExample {
         int a=10;
         int b=10;
         int res=0;
-
         try {
             System.out.println("Inside try block before division operation");
             res = a / b;
@@ -18,5 +17,6 @@ public class FinallyExample {
             System.out.println("b is : " + b);
             System.out.println("res is : " + res);
         }
+        //add some lines
     }
 }

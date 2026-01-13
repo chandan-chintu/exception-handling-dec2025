@@ -12,5 +12,6 @@ public class ThrowExample {
         } catch (Exception e){
             System.out.println("exception occurred : "+e.getMessage()+"----"+e.getClass());
         }
+        //add some lines
     }
 }
